@@ -1,7 +1,9 @@
 # 🩺 Diabetes Prediction System using Machine Learning
 
 Diabetes is one of the most common chronic diseases worldwide, and early detection plays a crucial role in effective management and prevention of complications.
-This Diabetes Prediction System uses Machine Learning to predict whether a person is likely to have diabetes based on important medical parameters.
+This **Diabetes Prediction System** uses **Machine Learning** to predict whether a person is likely to have diabetes based on important medical parameters.
+
+---
 
 ## 🚀 Project Overview
 
