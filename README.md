@@ -1,56 +1,73 @@
 # 🩺 Diabetes Prediction System using Machine Learning
 
-Diabetes is one of the most common chronic diseases worldwide, and early detection plays a crucial role in effective management and prevention of complications.
-This **Diabetes Prediction System** uses **Machine Learning** to predict whether a person is likely to have diabetes based on important medical parameters.
+A web-based Machine Learning application built with **Streamlit** that predicts the risk of diabetes based on medical parameters such as glucose level, BMI, age, insulin, and more.
+
+The system uses a trained **Support Vector Machine (SVM)** model with standardized input data to provide instant and reliable predictions.
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Features
 
-This project predicts the risk of diabetes by analyzing the following health-related features:
--Number of pregnancies
--Glucose level
--Blood pressure
--Skin thickness
--Insulin level
--Body Mass Index (BMI)
--Diabetes Pedigree Function
--Age
-The system helps in early health risk assessment by providing fast and data-driven predictions through an interactive web interface.
+- 🔍 Predicts diabetes risk (High / Low)
+- 📊 Uses real medical parameters for prediction
+- 🤖 Machine Learning model (SVM)
+- 📐 Data Standardization using Scaler
+- 🌐 Interactive Web Interface using Streamlit
+- ⚡ Instant prediction with user-friendly UI
 
-## 🧠 Technologies Used
+---
 
-### Programming Language: Python
+## 🛠️ Tech Stack
 
-### Libraries & Tools:
--NumPy
--Pandas
--Scikit-learn
--Streamlit
+- **Python**
+- **Streamlit** – Web Interface
+- **NumPy** – Numerical Computation
+- **Scikit-learn** – Machine Learning
+- **Pickle** – Model Serialization
+- **Pandas** – Dataset Handling
 
-### Machine Learning Algorithm:
--Support Vector Machine (SVM)
+---
 
-### Tools Used:
--PyCharm (IDE)
--Jupyter Notebook
+### Diabetes-Prediction-System/
+│
+├── app.py # Streamlit web app
+├── model.pkl # Trained SVM model
+├── scaler.pkl # StandardScaler object
+├── diabetes.csv # Dataset
+├── code.ipynb # Model training notebook
+└── README.md
 
-## 📊 Dataset Information
-The dataset used is the PIMA Indians Diabetes Dataset, which contains medical records with the following features:
 
-## Feature	Description
--Pregnancies	Number of pregnancies
--Glucose	Plasma glucose concentration
--BloodPressure	Diastolic blood pressure
--SkinThickness	Triceps skin fold thickness
--Insulin	2-Hour serum insulin
--BMI	Body Mass Index
--DiabetesPedigreeFunction	Diabetes pedigree function
--Age	Age of the patient
--Outcome	1 = Diabetic, 0 = Non-Diabetic
+---
 
-### ⚙️ How It Works
--User enters medical details through the web interface
--Input data is standardized using StandardScaler
--Trained SVM model processes the input data
--System predicts whether the person is Diabetic or Not Diabetic
+## 📊 Input Parameters
+
+The prediction is based on the following medical attributes:
+
+- Pregnancies
+- Glucose Level
+- Blood Pressure
+- Skin Thickness
+- Insulin Level
+- Body Mass Index (BMI)
+- Diabetes Pedigree Function
+- Age
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/diabetes-prediction-system.git
+cd diabetes-prediction-system
+```bash
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/diabetes-prediction-system.git
+cd diabetes-prediction-system
+```bash
+
+## 📂 Project Structure
+
