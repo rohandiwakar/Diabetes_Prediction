@@ -28,15 +28,13 @@ The system uses a trained **Support Vector Machine (SVM)** model with standardiz
 
 ---
 
-### Diabetes-Prediction-System/
-│
+### Diabetes-Prediction-System
 ├── app.py # Streamlit web app
 ├── model.pkl # Trained SVM model
 ├── scaler.pkl # StandardScaler object
 ├── diabetes.csv # Dataset
 ├── code.ipynb # Model training notebook
 └── README.md
-
 
 ---
 
@@ -61,13 +59,14 @@ The prediction is based on the following medical attributes:
 ```bash
 git clone https://github.com/your-username/diabetes-prediction-system.git
 cd diabetes-prediction-system
-```bash
+```
 
-### 1️⃣ Clone the Repository
+### 2️⃣ Install Required Libraries
 ```bash
-git clone https://github.com/your-username/diabetes-prediction-system.git
-cd diabetes-prediction-system
+pip install streamlit numpy scikit-learn pandas
+```
+
+### ▶️ Run the Application
 ```bash
-
-## 📂 Project Structure
-
+streamlit run app.py
+```
