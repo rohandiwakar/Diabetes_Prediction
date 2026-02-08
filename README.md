@@ -44,17 +44,17 @@ The prediction is based on the following medical attributes:
 ---
 
 ## 🧠 Machine Learning Workflow
-1.Load diabetes dataset (diabetes.csv)
-2.Preprocess and standardize data
-3.Train model using Support Vector Machine (SVM)
-4.Save trained model and scaler using Pickle
-5.Load model in Streamlit app
-6.Take user input and predict diabetes risk
+- 1.Load diabetes dataset (diabetes.csv)
+- 2.Preprocess and standardize data
+- 3.Train model using Support Vector Machine (SVM)
+- 4.Save trained model and scaler using Pickle
+- 5.Load model in Streamlit app
+- 6.Take user input and predict diabetes risk
 
 ## 📈 Prediction Output
-*✅ Low Risk of Diabetes
-*⚠️ High Risk of Diabetes
-Along with health tips for better awareness.
+- *✅ Low Risk of Diabetes
+- *⚠️ High Risk of Diabetes
+- Along with health tips for better awareness.
 
 
 ## ⚙️ Installation & Setup
