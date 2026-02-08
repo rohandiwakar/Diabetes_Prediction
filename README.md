@@ -54,7 +54,7 @@ The prediction is based on the following medical attributes:
 ## 📈 Prediction Output
 - ✅ Low Risk of Diabetes
 - ⚠️ High Risk of Diabetes
-  Along with health tips for better awareness.
+-  Along with health tips for better awareness.
 
 
 ## ⚙️ Installation & Setup
