@@ -28,16 +28,6 @@ The system uses a trained **Support Vector Machine (SVM)** model with standardiz
 
 ---
 
-### Diabetes-Prediction-System
-├── app.py # Streamlit web app
-├── model.pkl # Trained SVM model
-├── scaler.pkl # StandardScaler object
-├── diabetes.csv # Dataset
-├── code.ipynb # Model training notebook
-└── README.md
-
----
-
 ## 📊 Input Parameters
 
 The prediction is based on the following medical attributes:
@@ -52,6 +42,20 @@ The prediction is based on the following medical attributes:
 - Age
 
 ---
+
+## 🧠 Machine Learning Workflow
+1.Load diabetes dataset (diabetes.csv)
+2.Preprocess and standardize data
+3.Train model using Support Vector Machine (SVM)
+4.Save trained model and scaler using Pickle
+5.Load model in Streamlit app
+6.Take user input and predict diabetes risk
+
+## 📈 Prediction Output
+*✅ Low Risk of Diabetes
+*⚠️ High Risk of Diabetes
+Along with health tips for better awareness.
+
 
 ## ⚙️ Installation & Setup
 
@@ -70,3 +74,4 @@ pip install streamlit numpy scikit-learn pandas
 ```bash
 streamlit run app.py
 ```
+
